@@ -68,8 +68,8 @@ more.../
 
 ## 📂 File Structure
 
-```id="fs01"
-ArrayProblems/
+
+Array/
 │── FindDuplicate.java
 │── RemoveDuplicates.java
 │── MaxMin.java
