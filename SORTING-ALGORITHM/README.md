@@ -1,85 +1,119 @@
-📊 Core Sorting Algorithms in Java
+# Core Sorting Algorithms in Java
 
-This repository contains implementations of fundamental sorting algorithms using Java. These programs are written to build a strong foundation in problem-solving and understanding how data can be organized efficiently.
+This repository contains implementations of fundamental sorting algorithms using Java.  
+These programs are written to build a strong foundation in problem-solving and understanding how data can be organized efficiently.
+
 ---
 
-🚀 Overview
+# Overview
 
-Sorting is one of the most important concepts in programming and data structures. It is widely used in searching, optimization, and real-world applications like databases and analytics.
+Sorting is one of the most important concepts in programming and data structures.  
+It is widely used in searching, optimization, and real-world applications like databases and analytics.
 
 This repository includes simple and well-structured implementations of commonly used sorting techniques.
 
 ---
 
-📂 Algorithms Included
-1. 🔹 Bubble Sort
+# Algorithms Included
+
+## Bubble Sort
+
 Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
-Simple but not efficient for large datasets.
 
+### Concepts Used
 
-Time Complexity:
-
-Worst & Average: O(n²)
-Best: O(n)
+- Arrays
+- Nested Loops
+- Swapping Logic
 
 ---
 
-2. 🔹 Selection Sort
+## Selection Sort
+
 Finds the minimum element from the unsorted part and places it at the beginning.
-Reduces unnecessary swaps compared to Bubble Sort.
 
-Time Complexity:
+### Concepts Used
 
-All cases: O(n²)
+- Arrays
+- Comparison Logic
+- Element Swapping
 
 ---
 
-3. 🔹 Insertion Sort
+## Insertion Sort
+
 Builds the sorted array one element at a time by inserting elements into their correct position.
-Efficient for small or nearly sorted data.
 
-Time Complexity:
+### Concepts Used
 
-Worst & Average: O(n²)
-
----
-
-Best: O(n)
-4. 🔹 Merge Sort
-Uses divide-and-conquer approach.
-Divides the array into halves, sorts them, and merges them.
-
-Time Complexity:
-
-All cases: O(n log n)
+- Arrays
+- Iteration
+- Element Shifting
 
 ---
 
-5. 🔹 Quick Sort
-Picks a pivot and partitions the array around it.
-Very efficient in practice.
+## Merge Sort
 
-Time Complexity:
-Average: O(n log n)
-Worst: O(n²)
+Uses divide-and-conquer approach by dividing the array into smaller parts and merging them after sorting.
 
----
+### Concepts Used
 
-🛠️ Technologies Used
-Java
-Basic Data Structures (Arrays)
+- Recursion
+- Divide and Conquer
+- Array Merging
 
 ---
 
-🎯 Learning Purpose
-Understand how different sorting algorithms work
-Compare their performance and use-cases
-Strengthen Java programming skills
-Prepare for coding interviews and placements
+## Quick Sort
+
+Selects a pivot element and partitions the array around it.
+
+### Concepts Used
+
+- Recursion
+- Partition Technique
+- Divide and Conquer
 
 ---
 
-📈 Future Improvements
-Add time complexity comparison with graphs
-Include more advanced sorting techniques
-Optimize implementations with real-world datasets
+# Technologies Used
+
+- Java
+- Arrays
+- Basic Data Structures
+
+---
+
+# Concepts Practiced
+
+- Sorting Techniques
+- Problem Solving
+- Array Manipulation
+- Recursion
+- Divide and Conquer
+- Algorithm Building
+
+---
+
+# Learning Purpose
+
+The main purpose of this practice is to:
+
+- Understand how sorting algorithms work
+- Compare different sorting techniques
+- Strengthen Java programming skills
+- Improve logical thinking
+- Prepare for coding interviews and placements
+
+---
+
+# Folder Structure
+
+```bash
+SORTING-ALGORITHM/
+│
+├── BubbleSort.java
+├── SelectionSort.java
+├── InsertionSort.java
+├── MergeSort.java
+└── QuickSort.java
